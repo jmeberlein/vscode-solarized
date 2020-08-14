@@ -30,7 +30,8 @@
       "name": "Comment",
       "scope": [
         "comment",
-        "meta.documentation"
+        "meta.documentation",
+        "punctuation.definition.comment"
       ],
       "settings": {
         "foreground": "#93a1a1"
@@ -40,7 +41,7 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#2aa198"
+        "foreground": "#859900"
       }
     },
     {
@@ -54,21 +55,22 @@
       "name": "Escape \\ char",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#dc322f"
+        "foreground": "#2aa198"
       }
     },
     {
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#6c71c4"
+        "foreground": "#d33682"
       }
     },
     {
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "foreground": "#268bd2"
+        "foreground": "#657b83",
+        "fontStyle": "italic"
       }
     },
     // The following three work for javascript, typescript, and other similar languages
@@ -80,14 +82,15 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#657b83"
+        "foreground": "#657b83",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Functions as variables",
       "scope": "variable.function",
       "settings": {
-        "foreground": "#b58900"
+        "foreground": "#268bd2"
       }
     },
     {
@@ -97,7 +100,8 @@
         "variable.language.super"
       ],
       "settings": {
-        "foreground": "#d33682"
+        "foreground": "#6C71C4",
+        "fontStyle": "italic"
       }
     },
     {
